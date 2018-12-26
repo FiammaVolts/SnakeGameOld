@@ -8,6 +8,7 @@ namespace SnakeGame {
     class Program {
 
         public World world;
+        public GameManager gm;
         public Program prog = new Program();
 
         public void Start() {
@@ -16,8 +17,8 @@ namespace SnakeGame {
             world.points = 0;
             world.nTail = 0;
 
-            world.gameOver = false;
-            world.reset = false;
+            gm.gameOver = false;
+            gm.reset = false;
             world.isPrinted = false;
 
             world.noseX = World.width / 2;
