@@ -23,8 +23,6 @@ namespace SnakeGame {
         public const int height = 20;
         public const int width = 60;
 
-        public bool gameOver;
-        public bool reset;
         public bool isPrinted;
         public bool horizontal;
         public bool vertical;
